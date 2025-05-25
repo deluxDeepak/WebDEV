@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Dsa Introduction</h1>
+        <nav style="background-color: aliceblue;">
+            <ol>
+                <li><a href="#first">C++ Introduction</a></li>
+                <li><a href="#second">C++ Compiler</a></li>
+                <li><a href="#third">Array</a></li>
+                <li><a href="#fourth">Graph</a></li>
+            </ol>
+            
+        </nav>
+    </header>
+
+    <main>
+        <!-- C++ Introduction -->
+         <section id="first">
+        <h2>Introduction to C++</h2>
+        <P>C++ is a general-purpose programming language that was developed by Bjarne Stroustrup as an enhancement of the C language to add object-oriented paradigm. It is a high-level programming language that was first released in 1985 and since then has become the foundation of many modern technologies like game engines, web browsers, operating systems, financial systems, etc.</P>
+        <h3>Features of C++</h3>
+        <p>The main features C++ programming language are as follows:
+            <ul>
+                <li> <strong>Simple:</strong> It is a simple language in the sense that programs can be broken down into logical units and parts, and has a rich library support and a variety of datatypes.</li>
+                <li><strong>Machine Independent: </strong>C++ code can be run on any machine as long as a suitable compiler is provided.</li>
+                <li><strong>Low-level Access:</strong> C++ provides low-level access to system resources, which makes it a suitable choice for system programming and writing efficient code.</li>
+                <li><strong>Fast Execution Speed:</strong> C++ is one of the fastest high-level languages. There is no additional processing overhead in C++, it is blazing fast.</li>
+                <li><strong>Object-Oriented:</strong> One of the strongest points of the language which sets it apart from C. Object-Oriented support helps C++ to make maintainable and extensible programs. i.e. large-scale applications can be built.</li>
+                
+            </ul>
+        </p>
+
+        <h3>Bsic syntax</h3>
+        <!-- <iostream> iske ye tag ki tarah le reha hai
+            ye code part hai to isko code ke ander likho 
+            &lt;(less than symbol) and &gt;(greater than symbol)  -->
+        <pre style="background-color: rgb(212, 239, 239);">
+            <code>
+            #include &lt; iostream &gt;
+            using namespace std;
+
+            int main(){
+                cout << "Hello world" << endl;
+                return 0;
+            }
+            </code>
+
+
+        </pre>
+        </section>
+        
+        <!-- C++ Compiler -->
+         <section id="second">
+        <h2>Online C++ Compiler</h2>
+        <iframe src="https://onecompiler.com/cpp" frameborder="0"
+        height="600" width="100%" title="Online Compiler">
+        
+        </iframe>
+        <br><br>
+        </section>
+        <!-- Array -->
+        <section id="third">
+        <h2>Introduction to Array</h2>
+        <h3>Getting Started with Array Data Structure</h3>
+        <p>Array is a collection of items of the same variable type that are stored at contiguous memory locations. It is one of the most popular and simple data structures used in programming. </p>
+        <h4>Basic terminologies of Array</h4>
+        <ul>
+            <li><strong>Array Index:</strong> In an array, elements are identified by their indexes. Array index starts from 0.</li>
+            <li><strong>Array element:</strong> Elements are items stored in an array and can be accessed by their index.</li>
+            <li><strong>Array Length:</strong> The length of an array is determined by the number of elements it can contain. </li>
+        </ul>
+        <h4>Memory representation of Array</h4>
+        <p>In an array, all the elements are stored in contiguous memory locations. So, if we initialize an array, the elements will be allocated sequentially in memory. This allows for efficient access and manipulation of elements.</p>
+        <img src="./Array01.webp" alt="Array01 Image">
+        <h4>Types of Arrays on the basis of Dimensions</h4>
+        <ol>
+            <li><strong>One-dimensional Array(1-D Array):</strong> You can imagine a 1d array as a row, where elements are stored one after another.</li>
+            <li> <strong>Multi-dimensional Array:</strong> A multi-dimensional array is an array with more than one dimension. We can use multidimensional array to store complex data in the form of tables, etc. We can have 2-D arrays, 3-D arrays, 4-D arrays and so on. 
+                <ul>
+                    <li> <strong>Two-Dimensional Array(2-D Array or Matrix):</strong>  2-D Multidimensional arrays can be considered as an array of arrays or as a matrix consisting of rows and columns.
+                    <img src="./array02.webp" alt="Array 02_Image"></li>
+                    <li> <strong>Three-Dimensional Array(3-D Array):</strong> A 3-D Multidimensional array contains three dimensions, so it can be considered an array of two-dimensional arrays.
+                    <img src="./array03.webp" alt="Array 03_Image"></li>
+                </ul>
+            </li>
+            
+        </ol>
+
+        <table border="1">
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/moZNKL37w-s" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/9_B6TmAHveU" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/V3vM_m2iFtk" frameborder="0"></iframe></td>
+
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/YpZUgiT1N94" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/0Hwpzd-bSck" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/740PMblqK6o" frameborder="0"></iframe></td>
+
+            </tr>
+        </table>
+        </section>
+        <!-- Graph -->
+         <section id="fourth">
+        <h2>Introduction to Graph</h2>
+        <p>A Graph is a non-linear data structure consisting of vertices and edges. The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph is composed of a set of vertices( V ) and a set of edges( E ). The graph is denoted by G(V, E).</p>
+        <h3>Representations of Graph</h3>
+        <p>Here are the two most common ways to represent a graph : For simplicity, we are going to consider only unweighted graphs in this post.
+            <ol>
+                <li>Adjacency Matrix</li>
+                <li>Adjacency List</li>
+            </ol>
+        </p>
+        <h3>Adjacency Matrix Representation</h3>
+        <p>An adjacency matrix is a way of representing a graph as a matrix of boolean (0's and 1's)
+        Let's assume there are n vertices in the graph So, create a 2D matrix adjMat[n][n] having dimension n x n.</p>
+        <h4>Representation of Undirected Graph as Adjacency Matrix:</h4>
+        <p>The below figure shows an undirected graph. Initially, the entire Matrix is ​​initialized to 0. If there is an edge from source to destination, we insert 1 to both cases (adjMat[source][destination] and adjMat[destination][source]) because we can go either way.</p>
+        <img src="./01_graph.png" alt="Graph 01_Image">
+        <h3>Representation of Directed Graph as Adjacency Matrix:</h3>
+        <p>The below figure shows a directed graph. Initially, the entire Matrix is ​​initialized to 0. If there is an edge from source to destination, we insert 1 for that particular adjMat[source][destination].</p>
+        <img src="./02_graph.png" alt="Graph 02_Image">
+        <h3>Adjacency List Representation</h3>
+        <p>An array of Lists is used to store edges between two vertices. The size of array is equal to the number of vertices (i.e, n). Each index in this array represents a specific vertex in the graph. The entry at the index i of the array contains a linked list containing the vertices that are adjacent to vertex i.</p>
+        <img src="./03_graph.png" alt="Graph 03_Image">
+        
+        
+        <table border="1">
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/moZNKL37w-s" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/9_B6TmAHveU" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/V3vM_m2iFtk" frameborder="0"></iframe></td>
+
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/YpZUgiT1N94" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/0Hwpzd-bSck" frameborder="0"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/740PMblqK6o" frameborder="0"></iframe></td>
+
+            </tr>
+        </table>
+        </section>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>

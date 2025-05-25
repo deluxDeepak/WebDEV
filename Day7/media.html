@@ -1,0 +1,47 @@
+<!-- Audio file attach kar sakte hai  -->
+<!-- vedeo attach kar sakte hai  -->
+<!-- yootube vedeo attach kar sakte hai  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--we have  to give the controls  -->
+    <audio src="" controls>Audio file</audio>
+
+    <!-- second way to attach the audio file
+    (to give second optio if one auddio is not played)
+    if first song not play then we will play the second song   -->
+    <audio controls>
+      <source src="link_toaudio" />
+      <source src="link_to_second_song" />
+      show the default msg if the songs not loaded
+    </audio>
+    <br />
+
+    <video src="./banana.mp4" controls height="700" width="100%">
+      banana video
+    </video>
+    <br />
+
+    <!-- second way to give 
+    want to play the video automatic
+    autplay karega but mute karna parega video ko   -->
+    <video controls height="500" width="700" autoplay muted>
+      <source src="./banana.mp4" type="video/mp4" />
+      video not played due to some error
+      <!-- yahan multiple vedeo daal sakte hai agr ek play nahi hua to dusra play ho jana chiye  -->
+    </video>
+    <br>
+
+    <!-- video attach from the other website  -->
+    <iframe src="https://www.youtube.com/embed/DP754QLzA98" frameborder="0"></iframe>
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ri1Ar5nEq4s?si=5D2_zW6_mZuej7xw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+  </body>
+</html>
